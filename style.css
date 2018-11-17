@@ -1,0 +1,86 @@
+body{
+  background: rgb(245,245,245);
+  color: black;
+  font-size: 30px;
+  font-weight: 10
+  font-family: Helvetica;
+  text-align: center;
+}
+h1{
+  font-family: Courier;
+  color: black;
+  font-weight: lighter;
+  font-family: Helvetica;
+  font-size: 30px;
+}
+h2 {
+  font-family: Courier;
+  color: pink;
+  font-weight: lighter;
+  font-size: 30px;
+}
+a {
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+
+#banner{
+  text-align: center;
+  background-image: url("https://unsplash.it/1300/600?random");
+  background-size: cover;
+  padding: 200px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+#banner h1 {
+  color: white;
+  font-size: 50px;
+}
+#banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#footer{
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+}
+.card{
+  padding: 50px;
+  font-weight: lighter;
+}
+
+.btn-medium {
+  color: #999999;
+  border: 1px solid #999999;
+  padding: 10px 15px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+}
+.btn-medium:hover {
+  opacity: 1;
+  text-decoration: none;
+  color: #999999;
+}
+.btn-treehouse {
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: 51A3A3;
+  transition: background 0.3s ease;
+}
+.btn-treehouse:hover {
+  opacity: 1;
+  background: #3ac162;
+  text-decoration: none;
+  color: white;
+}
+
+.card { text-align: center }
